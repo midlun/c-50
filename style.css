@@ -1,0 +1,37 @@
+ /* 3 types of css inline internal and external */
+body{
+    background-color: aqua;
+}
+h2{
+    color: rgb(216, 74, 74);
+}
+/*{
+  border:dotted;  
+}*/
+
+.header{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    background-color: coral;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+
+p,h2{
+    text-align: center;
+}
+
